@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    font-family: 'Popins', 'sans-serif';
+    
+}
+
+img {
+    border: 1px solid #eee  ;
+    cursor: pointer;
+}
+
+#botao {
+    background-color: rgb(28, 151, 28);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    margin: auto;
+}
+
+#botao:hover {
+    background-color:  rgb(34, 184, 34);
+}
+
+#area-resultado {
+    display: none;
+}
+
+
+
+
+@media only screen and (min-width: 1120px) {
+    #area-escolha {
+        max-width: 600px; 
+        margin: 0 auto; 
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 1120px) {
+    #area-escolha {
+        max-width: 400px; 
+        margin: 0 auto; 
+    }
+
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+    #area-escolha {
+        max-width: 300px; 
+        margin: 0 auto; 
+    }
+
+   
+}
+
+
+@media only screen and (max-width: 270px) {
+    #area-escolha {
+        max-width: 200px; 
+        margin: 0 auto; 
+    }
+
+    
+}
